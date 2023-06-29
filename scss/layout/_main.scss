@@ -19,7 +19,7 @@
       padding: 150px 16px;
     }
 
-    h1 {
+    > div {
       text-align: center;
       display: flex;
       align-items: center;
@@ -138,7 +138,7 @@
       padding: 70px 16px;
     }
 
-    h1 {
+    h2 {
       text-align: center;
       font-size: 3.5rem;
       margin-bottom: 80px;
@@ -320,7 +320,7 @@
     @include mobile {
       padding: 70px 16px;
     }
-    h1 {
+    h2 {
       text-align: center;
       font-size: 3.5rem;
       margin-bottom: 80px;

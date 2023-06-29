@@ -99,7 +99,7 @@ ol {
     padding: 150px 16px;
   }
 }
-.info--container h1 {
+.info--container > div {
   text-align: center;
   display: flex;
   align-items: center;
@@ -112,7 +112,7 @@ ol {
   font-size: 4rem;
   font-weight: bold;
 }
-.info--container h1 img {
+.info--container > div img {
   width: 50px;
 }
 .info--container .items {
@@ -221,14 +221,14 @@ ol {
     padding: 70px 16px;
   }
 }
-.products--container h1 {
+.products--container h2 {
   text-align: center;
   font-size: 3.5rem;
   margin-bottom: 80px;
   color: #fff;
 }
 @media (max-width: 767px) {
-  .products--container h1 {
+  .products--container h2 {
     margin-bottom: 60px;
   }
 }
@@ -410,14 +410,14 @@ ol {
     padding: 70px 16px;
   }
 }
-.news--container h1 {
+.news--container h2 {
   text-align: center;
   font-size: 3.5rem;
   margin-bottom: 80px;
   color: #20904f;
 }
 @media (max-width: 767px) {
-  .news--container h1 {
+  .news--container h2 {
     margin-bottom: 60px;
   }
 }
